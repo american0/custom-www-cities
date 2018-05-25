@@ -1,0 +1,103 @@
+<style>
+  .block-picture {
+    font-family: "object-fit: cover;";
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+    margin: 0px;
+    background-position: center;
+    background-size: cover;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.6s ease-in-out;
+  }
+
+  .nopadding {
+   padding: 0 !important;
+   margin: 1 !important;
+  }
+
+  .block-picture:hover {
+    transform: scale(1.1);
+   }
+
+@media(min-width: 600px) {
+  .parent {
+    width: 100%;
+    overflow: hidden;
+    max-height: 300px;
+    max-width: 300px;
+    margin: 1px 1px;
+  }
+}
+
+
+@media (min-width: 768px){
+  .container.instagram-container {
+      width: auto;
+      margin: 0;
+      text-align: center;
+  }
+}
+
+@media (min-width: 600px){
+  .parent {
+      width: 100%;
+      overflow: hidden;
+      max-height: 300px;
+      max-width: 300px;
+      margin: 1px 1px;
+      display: inline-block;
+      float: none !important;
+  }
+}
+</style>
+
+<div class="container instagram-container">
+  <div class="row">
+
+<!--–– Post 1 ––-->
+    <div class="col-xs-12 col-sm-6 col-md-4 parent nopadding">
+      <a href="https://www.instagram.com/p/BhasRPMhchc/?taken-by=lewagonbali/" target="_blank">
+        <img src="https://scontent-sin6-2.cdninstagram.com/vp/d390b91220a8c623885cc0f3c608e995/5B64576E/t51.2885-15/e35/30086184_2055445298047242_4751243945554477056_n.jpg" alt="" class="block-picture">
+      </a>
+    </div>
+
+<!--–– Post 2 ––-->
+    <div class="col-xs-12 col-sm-6 col-md-4 parent nopadding">
+      <a href="https://www.instagram.com/p/BemX2eAhZSy/" target="_blank">
+        <img src="https://scontent-sin6-2.cdninstagram.com/vp/77bc58922f9d6b24c623535455c5468b/5B19AD89/t51.2885-15/e35/26872827_1673374016062950_3952137130918019072_n.jpg" alt="" class="block-picture">
+      </a>
+    </div>
+
+<!--–– Post 3 ––-->
+    <div class="col-xs-12 col-sm-6 col-md-4 parent nopadding">
+      <a href="https://www.instagram.com/p/Bf4q3XUBGay/" target="_blank">
+        <img src="https://scontent-sin6-2.cdninstagram.com/vp/ad2da675da7b98503fdaa410dcea968f/5B9A949B/t51.2885-15/e35/28430116_162697737864681_4966474497742864384_n.jpg" alt="" class="block-picture">
+      </a>
+    </div>
+
+<!--–– Post 4 ––-->
+    <div class="col-xs-12 col-sm-6 col-md-4 parent nopadding">
+      <a href="https://www.instagram.com/p/Bet_8Vxh3pg/" target="_blank">
+        <img src="https://scontent-sin6-2.cdninstagram.com/vp/428309171e075c48959f6a1c7b724a86/5B1E8FFE/t51.2885-15/e35/26870777_1938952543032538_4054545343281364992_n.jpg" alt="" class="block-picture">
+      </a>
+    </div>
+
+<!--–– Post 5 ––-->
+    <div class="col-xs-12 col-sm-6 col-md-4 parent nopadding">
+      <a href="https://www.instagram.com/p/BeJ1rSyg-Fc/" target="_blank">
+        <img src="&#10;https://scontent-sin6-2.cdninstagram.com/vp/68589eb74ef1eda1a1e39ba1336b5fb3/5B1F07F8/t51.2885-15/s640x640/sh0.08/e35/26185823_1043242892482639_9137388951957405696_n.jpg" alt="" class="block-picture">
+      </a>
+    </div>
+
+<!--–– Post 6 ––-->
+    <div class="col-xs-12 col-sm-6 col-md-4 parent nopadding">
+      <a href="https://www.instagram.com/p/BeUWnlgA-Np/" target="_blank">
+        <img src="https://scontent-sin6-2.cdninstagram.com/vp/8145556778d363120abf6790ac95c792/5B223AD9/t51.2885-15/sh0.08/e35/p750x750/26345589_159322544851906_5129658653418192896_n.jpg" alt="" class="block-picture">
+      </a>
+    </div>
+
+  </div>
+</div>
